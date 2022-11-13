@@ -1,0 +1,60 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(8,10vw);
+    grid-gap: 5px;
+}
+.container div{
+    /* background-color: skyblue; */
+    /* height: 50px; */
+    border: 2px solid black;
+}
+.img1{
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.img1 img,.img2 img,.img3 img,.img4 img,.img5 img,.img6 img,.img7 img,.img8 img,.img9 img,.img10 img,.img11 img,.img12 img,.img13 img,.img14 img{
+    width: 100%;
+    height: 100%;
+}
+.img2{
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.img3{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.img4{
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+.img5{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.img6{
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.img7{
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
+
+.img8{
+    grid-row-start: 4;
+    grid-row-end: 6;
+}
+.img9{
+    grid-row-start: 4;
+    grid-row-end: 5;
+}   
+.img10{
+    grid-row-start: 5;
+    grid-row-end: 8;
+}
+.img11{
+    grid-row-start: 6 ;
+    grid-row-end: 7;
+}
